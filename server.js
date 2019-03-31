@@ -7,6 +7,9 @@ app.get('/',(req,res)=>{
 app.get('/hi',(req,res)=>{
     res.send('hello' + req.query.name)
 })
+app.listen('/safdar',(req,res)=>{
+    res.send("this is updated version of the project ")
+})
 app.listen(PORT,()=>{
     console.log('server satrted' + PORT)
 })
